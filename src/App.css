@@ -1,0 +1,39 @@
+body {
+    background: #efefef;
+}
+
+#root {
+    background: white;
+    width: 400px;
+    margin: 40px auto;
+    border: 4px solid #ddd;
+    padding: 20px;
+}
+
+#root ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#root ul li {
+    padding: 8px 0;
+    border-bottom: 1px dotted #ddd;
+}
+
+#root a {
+    display: inline-block;
+    background: red;
+    color: white;
+    text-decoration: none;
+    float: right;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 16px;
+}
+
+.newtodo {
+    margin-top: 20px;
+}
